@@ -9,11 +9,11 @@
     <color name="transparent_light_grey">#d0EFEFEF</color>
     <color name="light_grey">#EFEFEF</color>
     <color name="white">#fafafa</color>
-    <color name="white_pressed">#F2F2F2</color>
+    <color name="white_pressed">#f2f2f2</color>
     <color name="white_grey">#f7f6f6</color>
     <color name="navigation_entry_color">#212121</color>
 
-    <color name="header_background">#00a6e3</color>
+    <color name="header_background">#ffffff</color>
 
     <color name="orange">#FAAF4C</color>
     <color name="ground_speed_label">#0a5242</color>
@@ -30,7 +30,7 @@
     <color name="light_title_bg">#e4e4e4</color>
     <!-- Colors for the view pager tab strip -->
     <color name="vpi__background_holo_dark">#ff000000</color>
-    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__background_holo_light">#f3f3f3</color>
     <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
     <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
     <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>

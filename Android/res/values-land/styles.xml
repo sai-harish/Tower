@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="slidingPanelGravity">
         <item name="android:gravity">start</item>
         <item name="android:paddingLeft">55dp</item>
@@ -10,4 +10,6 @@
         <item name="android:layout_marginLeft">55dp</item>
         <item name="android:layout_alignParentLeft">true</item>
     </style>
+
+
 </resources>

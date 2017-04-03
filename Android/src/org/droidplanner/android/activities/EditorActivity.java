@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.ColorInt;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.FragmentManager;
 import android.text.TextUtils;
@@ -134,6 +135,8 @@ public class EditorActivity extends DrawerNavigationUI implements OnPathFinished
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editor);
+
+        //getWindow().setNavigationBarColor(getResources().getColor(R.color.accent);
 
         gestureMapFragment = ((GestureMapFragment) fragmentManager.findFragmentById(R.id.editor_map_fragment));
         if (gestureMapFragment == null) {

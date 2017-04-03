@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Fab.GenericMissionControl">
         <item name="android:layout_marginBottom">5dp</item>
@@ -16,5 +16,6 @@
         <item name="fabSize">normal</item>
         <item name="backgroundTint">@android:color/white</item>
     </style>
+
 
 </resources>

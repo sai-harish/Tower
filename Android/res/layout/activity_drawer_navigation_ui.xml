@@ -57,6 +57,7 @@
         android:layout_gravity="start"
         android:orientation="vertical"
         android:id="@+id/navigation_drawer"
+        android:background="@android:color/holo_red_light"
         android:fitsSystemWindows="true">
 
         <android.support.design.widget.NavigationView
@@ -72,6 +73,8 @@
             android:background="@color/transparent_light_grey"/>
 
         <android.support.design.widget.NavigationView
+            app:itemTextColor="@android:color/holo_red_dark"
+            app:itemIconTint="@android:color/holo_red_dark"
             android:id="@+id/navigation_drawer_settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
