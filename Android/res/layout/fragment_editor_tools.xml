@@ -16,12 +16,10 @@
         android:background="@android:color/white"
         android:layout_marginBottom="4dp">
 
-        <fragment
-            android:id="@+id/vehicle_status_fragment"
-            android:name="org.droidplanner.android.fragments.actionbar.VehicleStatusFragment"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            />
+        <ImageView
+            android:layout_width="45sp"
+            android:layout_height="32sp"
+            android:src="@drawable/header_logo_trans"/>
 
         <View
             android:id="@+id/drone_connected_icon_separator"

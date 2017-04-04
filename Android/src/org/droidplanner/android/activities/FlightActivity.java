@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
@@ -20,6 +21,7 @@ public class FlightActivity extends DrawerNavigationUI implements SlidingUpPanel
 
     private static final String EXTRA_IS_ACTION_DRAWER_OPENED = "extra_is_action_drawer_opened";
     private static final boolean DEFAULT_IS_ACTION_DRAWER_OPENED = true;
+    private ImageView logo;
 
     private FlightDataFragment flightData;
 
@@ -43,6 +45,10 @@ public class FlightActivity extends DrawerNavigationUI implements SlidingUpPanel
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flight);
+
+        //Add the Logo
+
+
 
         final FragmentManager fm = getSupportFragmentManager();
 
